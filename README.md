@@ -3,8 +3,8 @@
 
 
 APIs used: 
-ipify.org - To get IP
-fourtonfish.com - To get the greeting from the IP
+* [Ipify](https://www.ipify.org/)  - To get IP
+* [Hellosalut API](https://fourtonfish.com/project/hellosalut-api/) - To get the greeting from the IP
 
 Login page, not allowed to check if Username or Password is empty.
 ![Login page, not allowed to check if usedname or Password is empty](https://i.imgur.com/YdQfka2.png)
