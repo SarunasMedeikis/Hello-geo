@@ -22,3 +22,43 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.login {
+}
+
+.login form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.login input,
+.login button,
+.dashboard button {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.login button,
+.dashboard button {
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.login button:hover,
+.dashboard button:hover {
+  background-color: #ffc0cb;
+  color: black;
+  border: none;
+}
+
+.login button:disabled {
+  background-color: #ccc;
+  color: rgb(71, 71, 71);
+  border: none;
+}
